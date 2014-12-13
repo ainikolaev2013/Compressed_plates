@@ -72,8 +72,10 @@ string output_location;
 
 	//Save the resulting image. Need to construct the path.
 
-	char *intStr = itoa(i, buffer, 10);
-	string i_s = string(intStr);
+	//char *intStr = itoa(i, buffer, 10);
+	//string i_s = string(intStr);
+	// I'm not using GCC, to this is cool.
+	string i_s = to_string(i);
 	string argvs = string(argv[1]);
 	string extention = ".tiff";
 	output_location = "./";
