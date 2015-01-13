@@ -11,3 +11,5 @@
 *.xls
 *.xlsx
 *.txt
+*.tlog
+*.log
