@@ -1,0 +1,6 @@
+Follow http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html#windowssetpathandenviromentvariable .
+Environmental variables should be setup (use appropriate path):
+setx -m OPENCV_DIR D:\OpenCV\Build\x86\vc11     (suggested for Visual Studio 2012 - 32 bit Windows)
+setx -m OPENCV_DIR D:\OpenCV\Build\x64\vc11     (suggested for Visual Studio 2012 - 64 bit Windows)
+Open CV 2.4.10 is used.
+This should also work OK for Visual Studio 2013.
