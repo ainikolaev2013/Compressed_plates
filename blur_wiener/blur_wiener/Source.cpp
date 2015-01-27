@@ -39,19 +39,57 @@ int main( int argc, char** argv )
 #include <iostream>
 
 #include "GaussianDegrader.h"
-
+#include "MathTools.h"
 
 
 using namespace std;
 using namespace cv;
 
 
+void testWiener(char** argv)
+{
+	int const MAX_KERNEL_LENGTH = 31;
+	char buffer[MAX_KERNEL_LENGTH];
+
+	Mat src; Mat dst;
+
+	string output_location;
+
+	/// Load the source image
+	int isColor = 0;
+	src = imread(argv[1], isColor); // Read the file
+
+	dst = src.clone();
+
+	/// Applying Gaussian blur
+	GaussianDegrader degrader(3);
+	degrader.process(src, dst);
+
+	imwrite("blur.bmp", dst);
+
+	cv::Mat kernelImg;
+	cv::Mat kernelScaled;
+	normalize(degrader.kernel, kernelScaled, 0, 255, CV_MINMAX);
+	
+	kernelScaled.convertTo(kernelImg, CV_8UC1);
+	imwrite("kernel.bmp", kernelImg);
+	double k = 0.01;
+	Mat deblur;
+	MathTools::wienerFilter(dst, degrader.kernel, k, deblur);
+	std::cout << deblur.type() << " " << CV_8UC1 << std::endl;
+	imwrite("deblur.bmp", deblur);
+}
+
 /**
  * function main
  */
  int main( int argc, char** argv )
  {
-	 int const MAX_KERNEL_LENGTH = 31;
+
+	testWiener(argv);
+	return 0;
+
+	int const MAX_KERNEL_LENGTH = 31;
 	char buffer [MAX_KERNEL_LENGTH];
 	Mat src; Mat dst;
 
