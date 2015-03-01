@@ -1,28 +1,10 @@
-c:\users\alex\documents\visual studio 2012\projects\blur_wiener\blur_wiener\x64\release\source.obj
-c:\users\alex\documents\visual studio 2012\projects\blur_wiener\blur_wiener\x64\release\gaussiandegrader.obj
-c:\users\alex\documents\visual studio 2012\projects\blur_wiener\blur_wiener\x64\release\gradientoptimizer.obj
-c:\users\alex\documents\visual studio 2012\projects\blur_wiener\blur_wiener\x64\release\vc110.pdb
-c:\users\alex\documents\visual studio 2012\projects\blur_wiener\x64\release\blur_wiener.exe
-c:\users\alex\documents\visual studio 2012\projects\blur_wiener\x64\release\blur_wiener.pdb
 f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\vc120.pdb
 f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\source.obj
+f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\mathtools.obj
 f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\gradientoptimizer.obj
 f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\gaussiandegrader.obj
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\mathtools.obj
 f:\spbsu\compressed_plates\blur_wiener\x64\release\blur_wiener.exe
 f:\spbsu\compressed_plates\blur_wiener\x64\release\blur_wiener.pdb
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\degrader.obj
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\cl.command.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\cl.read.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\cl.write.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\link-cvtres.read.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\link-cvtres.write.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\link-rc.read.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\link-rc.write.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\link.command.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\link.read.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\link.write.1.tlog
-f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\vc110.pdb
 f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\blur_wiener.tlog\cl.command.1.tlog
 f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\blur_wiener.tlog\cl.read.1.tlog
 f:\spbsu\compressed_plates\blur_wiener\blur_wiener\x64\release\blur_wiener.tlog\cl.write.1.tlog
