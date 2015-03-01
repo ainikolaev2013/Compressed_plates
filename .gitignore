@@ -13,3 +13,5 @@
 *.xlsx
 *.tlog
 *.log
+*.pdb
+*.obj
